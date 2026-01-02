@@ -13,7 +13,7 @@ SEED         = 42
 MODEL_NAME   = 'best_xss_focal_FULL.pth'
 BATCH_INF    = 128
 # BERT-specific hyperparameters
-BERT_MODEL = 'bert-base-uncased'
+BERT_MODEL = 'distilbert-base-uncased'
 BERT_EPOCHS = 3
 BERT_BATCH = 16
 BERT_LR = 3e-5
